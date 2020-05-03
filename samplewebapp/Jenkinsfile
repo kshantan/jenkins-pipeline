@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('fetch Code') {
       steps {
-        git 'https://github.com/ranjit-gill/samplewebapp.git'
+        git 'https://github.com/kshantan/jenkins-pipeline.git'
         echo 'source code is fetched from GitHub'
       }
     }
